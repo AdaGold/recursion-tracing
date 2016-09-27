@@ -37,10 +37,10 @@ def mystery2(n)
 end
 ```
 
-- What is mystery2(123)? _3 + 2 + 1 = 6 ([Panopto](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=202b1920-9501-4fd3-ae41-7b35a50166ff) at 45:00)_
-- What is mystery2(9005)? _5 + 0 + 0 + 9 = 14 ([Panopto](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=202b1920-9501-4fd3-ae41-7b35a50166ff) at 45:00)_
+- What is mystery2(123)? **3 + 2 + 1 = 6 ([Panopto](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=202b1920-9501-4fd3-ae41-7b35a50166ff) at 45:00)**
+- What is mystery2(9005)? **5 + 0 + 0 + 9 = 14 ([Panopto](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=202b1920-9501-4fd3-ae41-7b35a50166ff) at 45:00)**
 - What is mystery2(-123)?
-- *Added Fun: How could we make `mystery2(-123)` work the way we might expect it to work instead of the way it does?*
+- _Added Fun: How could we make `mystery2(-123)` work the way we might expect it to work instead of the way it does?_
 
 ### Trace #3
 ```
@@ -59,8 +59,8 @@ end
 ```
 
 - What is mystery3(1)?
-- What is mystery3(13)? _100 ([Panopto](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=202b1920-9501-4fd3-ae41-7b35a50166ff) at 1:09:00)_
-- What is mystery3(-6)? _200 ([Panopto](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=202b1920-9501-4fd3-ae41-7b35a50166ff) at 1:09:00)_
+- What is mystery3(13)? **100 ([Panopto](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=202b1920-9501-4fd3-ae41-7b35a50166ff) at 1:09:00)**
+- What is mystery3(-6)? **200 ([Panopto](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=202b1920-9501-4fd3-ae41-7b35a50166ff) at 1:09:00)**
 
 ### Trace #4
 ```
@@ -91,7 +91,7 @@ end
 - What is mystery5("hi")?
 - What is mystery5("")?
 - What is mystery5("Hi, there!")?
-- *Added Fun: How could we make only alphabetic characters to be changed to stars?*
+- _Added Fun: How could we make only alphabetic characters to be changed to stars?_
 
 ## Writing a recursive method
 
@@ -133,12 +133,12 @@ assume that no non-paren characters will be passed to this method.
 ## More Added Fun (optional)
 
 ### fib(n)
-Write a *recursive* method `fib` that accepts an integer n as a parameter and returns the nth [fibonacci number](https://en.wikipedia.org/wiki/Fibonacci#Fibonacci_sequence).
+Write a recursive method `fib` that accepts an integer n as a parameter and returns the nth [fibonacci number](https://en.wikipedia.org/wiki/Fibonacci#Fibonacci_sequence).
 
 - e.g. fib(4) = (1 1 2) 3 = 3
 
 ### pal(s)
-Write a *recursive* method `pal` that accepts a string s as a parameter and returns a boolean value indicating if that string is a [palindrome](https://en.wikipedia.org/wiki/Palindrome) or not.
+Write a recursive method `pal` that accepts a string s as a parameter and returns a boolean value indicating if that string is a [palindrome](https://en.wikipedia.org/wiki/Palindrome) or not.
 
 - e.g. pal("racecar") = true
 - e.g. pal("smile") = false
