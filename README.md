@@ -11,6 +11,8 @@
 
 ## Tracing through a recursive method
 
+**You should trace through these recursive methods given the calls below. The ones we did in class have the answers in bold immediately following the question.**
+
 ### Trace #1
 ```
 def mystery1(n)
@@ -94,6 +96,8 @@ end
 - _Added Fun: How could we make only alphabetic characters to be changed to stars?_
 
 ## Writing a recursive method
+
+**You should attempt at least 1 of the following problems. We did #1 together in class, so you will find that solution in the recursion.rb file. You can use the tracing problems above to help give you an idea of what the methods may look like at the end, but remember to look for patterns between multiple examples to help you generalize before writing the code.**
 
 ### Write #1
 `factorial(n)`
