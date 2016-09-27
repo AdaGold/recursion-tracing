@@ -37,8 +37,8 @@ def mystery2(n)
 end
 ```
 
-- What is mystery2(123)? _3 + 2 + 1 = 6 ([Panopto](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=202b1920-9501-4fd3-ae41-7b35a50166ff) at 45:00)__
-- What is mystery2(9005)? _5 + 0 + 0 + 9 = 14 ([Panopto](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=202b1920-9501-4fd3-ae41-7b35a50166ff) at 45:00)__
+- What is mystery2(123)? _3 + 2 + 1 = 6 ([Panopto](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=202b1920-9501-4fd3-ae41-7b35a50166ff) at 45:00)_
+- What is mystery2(9005)? _5 + 0 + 0 + 9 = 14 ([Panopto](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=202b1920-9501-4fd3-ae41-7b35a50166ff) at 45:00)_
 - What is mystery2(-123)?
 - *Added Fun: How could we make `mystery2(-123)` work the way we might expect it to work instead of the way it does?*
 
