@@ -1,5 +1,11 @@
 
+# [Panopto at 2:50](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=202b1920-9501-4fd3-ae41-7b35a50166ff)
 def factorial(n)
+  if n == 1 || n == 0
+    return 1
+  else
+    return n * factorial(n-1)
+  end
 end
 
 def reverse(s)

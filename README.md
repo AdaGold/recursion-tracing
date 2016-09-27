@@ -37,10 +37,10 @@ def mystery2(n)
 end
 ```
 
-- What is mystery2(123)?
-- What is mystery2(9005)?
+- What is mystery2(123)? _3 + 2 + 1 = 6 ([Panopto](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=202b1920-9501-4fd3-ae41-7b35a50166ff) at 45:00)__
+- What is mystery2(9005)? _5 + 0 + 0 + 9 = 14 ([Panopto](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=202b1920-9501-4fd3-ae41-7b35a50166ff) at 45:00)__
 - What is mystery2(-123)?
-- _Added Fun: How could we make `mystery2(-123)` work the way we might expect it to work instead of the way it does?_
+- *Added Fun: How could we make `mystery2(-123)` work the way we might expect it to work instead of the way it does?*
 
 ### Trace #3
 ```
@@ -59,8 +59,8 @@ end
 ```
 
 - What is mystery3(1)?
-- What is mystery3(13)?
-- What is mystery3(-6)?
+- What is mystery3(13)? _100 ([Panopto](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=202b1920-9501-4fd3-ae41-7b35a50166ff) at 1:09:00)_
+- What is mystery3(-6)? _200 ([Panopto](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=202b1920-9501-4fd3-ae41-7b35a50166ff) at 1:09:00)_
 
 ### Trace #4
 ```
@@ -91,7 +91,7 @@ end
 - What is mystery5("hi")?
 - What is mystery5("")?
 - What is mystery5("Hi, there!")?
-- _Added Fun: How could we make only alphabetic characters to be changed to stars?_
+- *Added Fun: How could we make only alphabetic characters to be changed to stars?*
 
 ## Writing a recursive method
 
