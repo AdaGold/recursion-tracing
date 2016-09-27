@@ -133,12 +133,12 @@ assume that no non-paren characters will be passed to this method.
 ## More Added Fun (optional)
 
 ### fib(n)
-Write a *recursive* method `fib` that accepts an integer n as a parameter and returns the nth [fibonacci number](https://en.wikipedia.org/wiki/Fibonacci#Fibonacci_sequence).
+Write a recursive method `fib` that accepts an integer n as a parameter and returns the nth [fibonacci number](https://en.wikipedia.org/wiki/Fibonacci#Fibonacci_sequence).
 
 - e.g. fib(4) = (1 1 2) 3 = 3
 
 ### pal(s)
-Write a *recursive* method `pal` that accepts a string s as a parameter and returns a boolean value indicating if that string is a [palindrome](https://en.wikipedia.org/wiki/Palindrome) or not.
+Write a recursive method `pal` that accepts a string s as a parameter and returns a boolean value indicating if that string is a [palindrome](https://en.wikipedia.org/wiki/Palindrome) or not.
 
 - e.g. pal("racecar") = true
 - e.g. pal("smile") = false
