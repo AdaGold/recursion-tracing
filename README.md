@@ -39,7 +39,8 @@ end
 
 - What is mystery2(123)?
 - What is mystery2(9005)?
-- What is mystery2(-123)? _How could we make this work the way we might expect it to work instead of the way it does?_
+- What is mystery2(-123)?
+- _Added Fun: How could we make `mystery2(-123)` work the way we might expect it to work instead of the way it does?_
 
 ### Trace #3
 ```
@@ -89,7 +90,8 @@ end
 
 - What is mystery5("hi")?
 - What is mystery5("")?
-- What is mystery5("Hi, there!")? _What if we only wanted alphabetic characters to be changed to stars?_
+- What is mystery5("Hi, there!")?
+- _Added Fun: How could we make only alphabetic characters to be changed to stars?_
 
 ## Writing a recursive method
 
