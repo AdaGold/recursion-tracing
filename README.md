@@ -11,6 +11,8 @@
 
 ## Tracing through a recursive method
 
+**You should trace through these recursive methods given the calls below. The ones we did in class have the answers in bold immediately following the question.**
+
 ### Trace #1
 ```
 def mystery1(n)
@@ -37,8 +39,8 @@ def mystery2(n)
 end
 ```
 
-- What is mystery2(123)?
-- What is mystery2(9005)?
+- What is mystery2(123)? **3 + 2 + 1 = 6 ([Panopto](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=202b1920-9501-4fd3-ae41-7b35a50166ff) at 45:00)**
+- What is mystery2(9005)? **5 + 0 + 0 + 9 = 14 ([Panopto](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=202b1920-9501-4fd3-ae41-7b35a50166ff) at 45:00)**
 - What is mystery2(-123)?
 - _Added Fun: How could we make `mystery2(-123)` work the way we might expect it to work instead of the way it does?_
 
@@ -59,8 +61,8 @@ end
 ```
 
 - What is mystery3(1)?
-- What is mystery3(13)?
-- What is mystery3(-6)?
+- What is mystery3(13)? **100 ([Panopto](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=202b1920-9501-4fd3-ae41-7b35a50166ff) at 1:09:00)**
+- What is mystery3(-6)? **200 ([Panopto](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=202b1920-9501-4fd3-ae41-7b35a50166ff) at 1:09:00)**
 
 ### Trace #4
 ```
@@ -94,6 +96,8 @@ end
 - _Added Fun: How could we make only alphabetic characters to be changed to stars?_
 
 ## Writing a recursive method
+
+**You should attempt at least 1 of the following problems. We did #1 together in class, so you will find that solution in the recursion.rb file. You can use the tracing problems above to help give you an idea of what the methods may look like at the end, but remember to look for patterns between multiple examples to help you generalize before writing the code.**
 
 ### Write #1
 `factorial(n)`
