@@ -1,4 +1,5 @@
 def mystery1(n)
+  puts n
   if n == 1
     return n
   else
