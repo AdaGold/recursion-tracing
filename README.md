@@ -93,52 +93,22 @@ end
 - What is mystery5("Hi, there!")?
 - _Added Fun: How could we make only alphabetic characters to be changed to stars?_
 
-## Writing a recursive method
+### Trace #6
+```
+def mystery6(s)
+  if s == nil || s.length == 0
+    return ""
+  else
+    space = 0
+    until space >= s.length || s[space] == " "
+      space += 1
+    end
+    return mystery6(s[(space+1)..-1]) + " " + s[0...space]
+  end
+end
+```
 
-### Write #1
-`factorial(n)`
-Write a method `factorial` that accepts an integer parameter n and that uses recursion to compute and return the value of n factorial (also known as n!).
-
-- e.g. fact(4) = 4 * 3 * 2 * 1 = 24
-
-### Write #2
-`reverse(s)`
-Write a method `reverse` that accepts a string as a parameter
-and then returns the reverse of the string.
-
-- e.g. reverse("hello") = "olleh"
-
-### Write #3
-`bunny(n)`
-Write a method `bunny` that accepts an integer parameter n. N represents a
-number of bunnies and each bunny has two big floppy ears. We want to compute the total number of ears across all the bunnies recursively (without loops or multiplication).
-
-- e.g. bunny(0) = 0
-- e.g. bunny(1) = 2
-- e.g. bunny(10) = 20
-
-### Write #4
-`nested(s)`
-Write a method `nested` that accepts a string of only parenthesis
-and then returns if those parenthesis are properly nested. You may
-assume that no non-paren characters will be passed to this method.
-
-- e.g. nested("((()))") = true
-- e.g. nested("())") = false
-
-
-
-
-
-## More Added Fun (optional)
-
-### fib(n)
-Write a recursive method `fib` that accepts an integer n as a parameter and returns the nth [fibonacci number](https://en.wikipedia.org/wiki/Fibonacci#Fibonacci_sequence).
-
-- e.g. fib(4) = (1 1 2) 3 = 3
-
-### pal(s)
-Write a recursive method `pal` that accepts a string s as a parameter and returns a boolean value indicating if that string is a [palindrome](https://en.wikipedia.org/wiki/Palindrome) or not.
-
-- e.g. pal("racecar") = true
-- e.g. pal("smile") = false
+- What is mystery6("goodnight moon")?
+- What is mystery6("Ada Developers Academy")?
+- What is mystery6("Hi, there!")?
+- _Added Fun: How could we make the reversal happen by letter, instead of by word (i.e. Make it so that mystery6("goodnight moon") returned "noom thgindoog")?_
