@@ -1,6 +1,8 @@
 # Recursion Problems
 
 ## Definitions
+Define the following: 
+
 - Recursion
 - Recursive Case
 - Base Case
