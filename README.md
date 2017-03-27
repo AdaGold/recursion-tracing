@@ -4,11 +4,17 @@
 Define the following:
 
 - Recursion
+  --see recursion; when a method calls itself
 - Recursive Case
+  --the case where the recursion will be called
 - Base Case
+  --the case that stops the recursion
 - Activation Chain/Stack
+  --the process of stepping through the recursion
 - Activation Record/Call
+  --an individual step in the activation chain
 - Infinite Recursion/Stack Overflow/Stack too deep
+  --never reaching the base case--the error that gets raised
 - Tail Recursion
 
 ## Tracing through a recursive method
