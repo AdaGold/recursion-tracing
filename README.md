@@ -3,13 +3,13 @@
 ## Definitions
 Define the following: 
 
-- Recursion
-- Recursive Case
-- Base Case
-- Activation Chain/Stack
-- Activation Record/Call
-- Infinite Recursion/Stack Overflow/Stack too deep
-- Tail Recursion
+- Recursion: A method that calls itself
+- Recursive Case: The part of a method that is recursive (calls itself)
+- Base Case: The case that stops the loop
+- Activation Chain/Stack: The process of solving the recursive loop
+- Activation Record/Call: Each complete step in Activation Stack
+- Infinite Recursion/Stack Overflow/Stack too deep: A recursive method without a base case, or one where the starting value bypasses the base case, will continue indefinitely until stopped by the computer for taking up too much memory/room.
+- Tail Recursion: Is a special type of problem where the recursive call is the last part of the function.
 
 ## Tracing through a recursive method
 
@@ -25,9 +25,11 @@ end
 ```
 
 - What is mystery1(5)?
+15
 - What is mystery1(10)?
+55
 - What is mystery1(0)?
-
+Infinite recursion!!
 ### Trace #2
 ```
 def mystery2(n)
@@ -40,8 +42,11 @@ end
 ```
 
 - What is mystery2(123)?
+6
 - What is mystery2(9005)?
+14
 - What is mystery2(-123)?
+123
 - _Added Fun: How could we make `mystery2(-123)` work the way we might expect it to work instead of the way it does?_
 
 ### Trace #3
@@ -61,7 +66,9 @@ end
 ```
 
 - What is mystery3(1)?
+100
 - What is mystery3(13)?
+100
 - What is mystery3(-6)?
 
 ### Trace #4
