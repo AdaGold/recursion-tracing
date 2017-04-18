@@ -14,7 +14,7 @@ Define the following:
 ## Tracing through a recursive method
 
 ### Trace #1
-```
+```ruby
 def mystery1(n)
   if n == 1
     return n
@@ -29,7 +29,7 @@ end
 - What is mystery1(0)?
 
 ### Trace #2
-```
+```ruby
 def mystery2(n)
   if n < 10
     return n
@@ -45,7 +45,7 @@ end
 - _Added Fun: How could we make `mystery2(-123)` work the way we might expect it to work instead of the way it does?_
 
 ### Trace #3
-```
+```ruby
 def mystery3(n)
   if n == 0
     return 100
@@ -65,7 +65,7 @@ end
 - What is mystery3(-6)?
 
 ### Trace #4
-```
+```ruby
 def mystery4(b,e)
   if e == 0
     return 1
@@ -80,7 +80,7 @@ end
 - What is mystery4(5,0)?
 
 ### Trace #5
-```
+```ruby
 def mystery5(s)
   if s.length == 0
     return ""
@@ -96,7 +96,7 @@ end
 - _Added Fun: How could we make only alphabetic characters to be changed to stars?_
 
 ### Trace #6
-```
+```ruby
 def mystery6(s)
   if s == nil || s.length == 0
     return ""
