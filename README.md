@@ -114,3 +114,20 @@ end
 - What is mystery6("Ada Developers Academy")?
 - What is mystery6("Hi, there!")?
 - _Added Fun: How could we make the reversal happen by letter, instead of by word (i.e. Make it so that mystery6("goodnight moon") returned "noom thgindoog")?_
+
+### Trace #7
+```ruby
+def mystery7(word)
+  if word.length < 2
+    return true
+  elsif word[0] != word[-1]
+    return false
+  else
+    return mystery7(word[1..-2])
+  end
+end
+```
+
+- What is mystery7("cupcake")?
+- What is mystery7("detected")?
+- What is mystery7("eye")?
