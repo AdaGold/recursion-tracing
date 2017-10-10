@@ -5,8 +5,8 @@ Define the following:
 - Recursion
 - Recursive Case
 - Base Case
-- Activation Chain/Stack
-- Activation Record/Call
+- Activation Chain/Function Call Stack
+- Activation Record/Function Call
 - Infinite Recursion/Stack Overflow/Stack too deep
 - Tail Recursion
 
