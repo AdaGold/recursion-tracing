@@ -1,6 +1,4 @@
-# Recursion Problems
-Solution by Theresa Manney, C7: [https://github.com/TheresaManney/recursion-tracing](https://github.com/TheresaManney/recursion-tracing)
-
+# Reference solution for recursion tracing
 ## Definitions
 Define the following:
 
