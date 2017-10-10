@@ -55,3 +55,13 @@ def mystery6(s)
     return mystery6(s[(space+1)..-1]) + " " + s[0...space]
   end
 end
+
+def mystery7(word)
+  if word.length < 2
+    return true
+  elsif word[0] != word[-1]
+    return false
+  else
+    return mystery7(word[1..-2])
+  end
+end
