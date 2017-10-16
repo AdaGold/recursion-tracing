@@ -244,7 +244,7 @@ m6("moon") = m6("") + " " + "moon" = " moon"</br>
 m6("") = ("")
 
 - What is mystery6("Ada Developers Academy")?</br>
-m6("Ada Developers Academy") = m6("Developers Academy") + " " + "Ada" = **" Ada Developers Academy"**</br>
+m6("Ada Developers Academy") = m6("Developers Academy") + " " + "Ada" = **" Academy Developers Ada"**</br>
 m6("Developers Academy") = m6("Academy") + " " + "Developers" = " Developers Academy"</br>
 m6("Academy") = m6("") + " " + "Academy" = " Academy"</br>
 m6("") = ""
